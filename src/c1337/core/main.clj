@@ -1,3 +1,5 @@
-(ns c1337.core.main)
+(ns c1337.core.main
+  (:gen-class))
 
-(println "c1337... coming soon")
+(defn -main [& args]
+  (println "Welcome to c1337! Ignoring: " args))
